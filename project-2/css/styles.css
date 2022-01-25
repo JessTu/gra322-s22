@@ -3,3 +3,7 @@ html {
     --gray-dark: #333;
     --gray-light: #f2f2f2;
 }
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
