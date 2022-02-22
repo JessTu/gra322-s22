@@ -14,25 +14,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <div class="container">
 
-
   <header class="grid">
-    <h1>Charlie's Cafe</h1>
-    <div>
-      <img src="img/hamburger-icon.png" alt="more options" class="hamburger-icon"/>
+    <div class="overlay">
+      <h1>Charlie's Cafe</h1>
+
+      <button class="menu-button"><span class="fa fa-bars"></span></button>
+          <nav>
+            <ul>
+              <p><a href="#">Welcome</a></p>
+              <p><a href="#">Full Menu</a></p>
+              <p><a href="#">More Information</a></p>
+            </ul>
+          </nav>
+
+
+      <h2>Welcome</h2>
+            <p>Charlie's Café, brings the taste of 
+              Europe to ASU! Proudly serving Firecreek 
+              Coffee and featuring fresh European 
+              sandwiches and baked goods.
+            </p>
     </div>
-    
-    <h2>Welcome</h2>
-          <p>Charlie's Café, brings the taste of 
-            Europe to ASU! Proudly serving Firecreek 
-            Coffee and featuring fresh European 
-            sandwiches and baked goods.
-          </p>
   </header>
 
   <body>
@@ -232,14 +241,25 @@
     </div>
 
     <footer>
+      <div id="outter">
+        <div id="div1"> Charlie's Cafe</div>
+        <div id="div2"> <span class="fa-brands fa-instagram"></span> </div>
+        <div style="clear:both"></div>
+      </div>
+    </footer>
+  
+
+    <footer>
       <p>Charlie's Cafe</p>
 
       <img src="img/Group 2.png" alt="instagram" class="instagram"/>
     </footer>
 
     <!-- Load Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 
   </body>
+
 </div>
 </html>

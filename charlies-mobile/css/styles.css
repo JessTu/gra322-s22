@@ -23,6 +23,11 @@ header {
     text-align: center;
 }
 
+.overlay {
+    background: rgba(0, 0, 0, .2);
+    height: 15vw;
+}
+
 h1 {
     font-size: 20px;
     font-weight: 700;
@@ -62,11 +67,12 @@ h4 {
     text-align: center; 
 }
 
-.hamburger-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
+.menu-button
+
+.overlay {
+    background-color: black;
+    opacity: 20%;
+    width: 100%;
 }
 
 .indent {
@@ -87,6 +93,7 @@ h4 {
 }
 
 .subtitle {
+    color: #584537;
     font-size: 16px;
     font-weight: 700;
     margin-left: 2.5rem;
@@ -101,7 +108,7 @@ h4 {
     margin-top: 1rem;
     font-size: 13px;
     font-weight: 400;
-    width: 150%
+    width: 150%;
 }
 
 .a {
@@ -112,6 +119,7 @@ h4 {
 
 footer {
     background-color: #584537;
+    height: 3vw;
 }
 
 footer {
@@ -123,3 +131,21 @@ footer {
     text-indent: 2.5rem;
 }
 
+.outter {
+    width: 400px;
+    padding: 0;
+    margin: 0 auto;
+    }
+
+    #div1 {
+    margin-top: .5rem;
+    width: 50%;
+    float: left;
+    }
+
+    #div2 {
+    float: right;
+    margin-top: .55rem;
+    margin-right: 2.5rem; 
+    }
+}
