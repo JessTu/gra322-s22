@@ -60,6 +60,10 @@ h4 {
     text-align: center;
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
 .menu {
     color: #584537;
     font-size: 25px;
@@ -82,9 +86,8 @@ h4 {
 .three-column {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 12rem 3rem 2rem;
+    grid-template-columns: 10rem 3rem 2rem;
     margin-left: 2.5rem;
-    line-height: 2.5;
 }
 
 .two-column {
@@ -105,7 +108,7 @@ h4 {
 }
 
 .description {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-size: 13px;
     font-weight: 400;
     width: 150%;
@@ -131,7 +134,7 @@ footer {
     text-indent: 2.5rem;
 }
 
-.outter {
+.out {
     width: 400px;
     padding: 0;
     margin: 0 auto;
@@ -148,4 +151,3 @@ footer {
     margin-top: .55rem;
     margin-right: 2.5rem; 
     }
-}
