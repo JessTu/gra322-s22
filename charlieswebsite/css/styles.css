@@ -1,0 +1,143 @@
+html {
+    --brown: #584537;
+    --orange: #f47A2E;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.menu-button {
+    margin-right: auto;
+}
+
+header {
+    background-image: url("../img/harry-brewer-irDJy_7lkWk-unsplash.jpg");
+    background-size: cover;
+    color: #fff;
+    height: 50vw;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .2);
+    height: 50vw;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center; 
+    margin-top: 1rem;
+}
+
+h3 {
+    color: #f47A2E;
+    font-size: 25px;
+    font-weight: 700;
+    padding: .5rem;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.menus-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+  
+@media screen and (min-width: 768px) {
+    .menus-container {
+      grid-template-columns: 1fr 1fr;
+    }
+    .menu {
+      padding: 2rem;
+    }
+    header {
+        background-image: url("../img/harry-brewer-irDJy_7lkWk-unsplash.jpg");
+        background-size: cover;
+        color: #fff;
+        height: 30vw;
+        text-align: center;
+    }
+    .overlay {
+        background: rgba(0, 0, 0, .2);
+        height: 30vw;
+    }
+}
+
+table {
+    width: 100%;
+  }
+  
+  tr {
+    border-bottom: 1px solid black;
+  }
+  
+  th {
+    padding: .5rem;
+    text-align: left;
+  }
+  
+  td {
+    padding: .5rem;
+    text-align: left;
+    max-width: 1rem 1rem;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+}  
+
+.subtitle {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #584537;
+}
+
+footer {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}

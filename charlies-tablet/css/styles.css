@@ -1,0 +1,150 @@
+html {
+    --brown: #584537;
+    --orange: #f47A2E;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+#div2 {
+    float: right;
+    margin-top: auto;
+}
+
+header {
+    background-image: url("../img/harry-brewer-irDJy_7lkWk-unsplash.jpg");
+    background-size: cover;
+    color: #fff;
+    height: 60vw;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.overlay {
+    background: rgba(0, 0, 0, .2);
+    height: 60vw;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 2.5rem;
+}
+
+h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center; 
+    margin-top: 1rem;
+}
+
+h3 {
+    color: #f47A2E;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 2rem;
+    text-align: left;
+    padding-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.menu {
+    color: #584537;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center; 
+    margin-top: 1.5rem;
+}
+
+.menu-button
+
+.overlay {
+    background-color: black;
+    opacity: 20%;
+    width: 100%;
+}
+
+.indent {
+    text-indent: 1rem;
+}
+
+.three-column {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 10rem 3rem 2rem;
+    margin-left: 2.5rem;
+    font-size: 16px;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-class {
+    margin-top: -1rem;
+    float: left;
+    margin-right: 5rem;
+    margin-bottom: 6rem;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+
+.more {
+    font-size: 16px;
+}
+
+.description {
+    margin-top: 1.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    width: 155%;
+    text-align: left;
+}
+
+.a {
+    margin-top: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #584537;
+    height: 50vw;
+}
+
+footer {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+}
