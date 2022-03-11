@@ -137,7 +137,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .links {
         display: none;
 
@@ -191,10 +191,12 @@ ul {
     }
     h1 {
         font-size: 25px;
+        margin-top: 1.5rem;
+        padding: 1.5rem;
     }
     h2 {
         font-size: 35px;
-        margin-top: 3rem;
+        margin-top: .25rem;
     }
     h4 {
         font-size: 50px;
