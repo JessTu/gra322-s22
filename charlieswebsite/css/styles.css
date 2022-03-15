@@ -103,6 +103,16 @@ h4 {
     font-size: 30px;
 }
 
+.fa-facebook {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.fa-twitter {
+    font-weight: 300;
+    font-size: 30px;
+}
+
 .links {
     display: flex;
     font-size: 20px;
