@@ -125,8 +125,8 @@ h4 {
         display: flex;
         margin-left: auto;
         margin-right: 2rem;
-        margin-top: 1.5rem;
-        max-height: 2rem;
+        margin-top: 1.2rem;
+        max-height: 1.3rem;
     }
     .menu-btn>span, .menu-btn>span::before, .menu-btn>span::after {
         display: block;
