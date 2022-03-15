@@ -36,7 +36,7 @@ footer {
 }
 
 header {
-    background-image: url("../img/harry-brewer-irDJy_7lkWk-unsplash.jpg");
+    background-image: url("../img/updatedimg.jpg");
     background-size: cover;
     color: #fff;
     height: 65vw;
@@ -349,4 +349,17 @@ table {
 ul {
     margin-right: 2rem;
     text-align: right;
+}
+
+.phonenumber {
+    margin-top: .3rem;
+    margin-bottom: .5rem;
+}
+
+.address {
+    margin-bottom: .5rem;
+}
+
+.details {
+    margin-bottom: 1rem;
 }
