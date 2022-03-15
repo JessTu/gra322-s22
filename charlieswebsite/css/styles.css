@@ -266,6 +266,9 @@ ul {
         margin-bottom: 1rem;
     }
 
+    .name {
+        margin-top: 2.3rem;
+    }
 }
 
 @media screen and (min-width: 1400px) {
