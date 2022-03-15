@@ -253,6 +253,18 @@ ul {
         background: rgba(0, 0, 0, .2);
         height: 42vw;
     }
+    .phonenumber {
+        margin-top: .3rem;
+        margin-bottom: .5rem;
+    }
+    
+    .address {
+        margin-bottom: .5rem;
+    }
+    
+    .details {
+        margin-bottom: 1rem;
+    }
 
 }
 
@@ -352,7 +364,7 @@ ul {
 }
 
 .phonenumber {
-    margin-top: .3rem;
+    margin-top: .1rem;
     margin-bottom: .5rem;
 }
 
@@ -362,4 +374,8 @@ ul {
 
 .details {
     margin-bottom: 1rem;
+}
+
+.location {
+    margin-top: 1.55rem;
 }
