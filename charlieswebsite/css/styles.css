@@ -271,6 +271,16 @@ ul {
     .name {
         margin-top: 2.3rem;
     }
+
+    table {
+        width: 100%;
+      }
+      
+      td:first-child {
+        width: 90%;
+      }
+       
+  
 }
 
 @media screen and (min-width: 1400px) {
@@ -295,7 +305,7 @@ ul {
     }
     .menus-container {
       grid-template-columns: 1fr 1fr;
-      margin-left: 7rem;
+      margin-left: 4rem;
     }
     .menu {
       padding: 2rem;
@@ -344,7 +354,7 @@ table {
   }
 
   td:first-child {
-      width: 80%;
+      width: 60%;
   }
 
   td {
