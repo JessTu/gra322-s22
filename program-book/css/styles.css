@@ -1,3 +1,77 @@
-.current-page {
-    font-weight: bold;
+body {
+    font-family: 'Roboto', sans-serif;
 }
+
+header {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3rem;
+    margin-top: .5rem;
+    display: flex;
+}
+
+.menu-button {
+    display: flex;
+    margin-left: auto;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    max-height: 1rem;
+    -webkit-appearance: none;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.intro {
+    font-size: 16px;
+    font-size: 400;
+    max-width: 280px;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+}
+
+.three-column {
+    max-width: 280px;
+    margin-left: 3rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.tns-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.tns-controls button {
+    padding: .5rem 1rem;
+}
+
+.animation {
+    margin-left: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.final {
+    max-width: 280px;
+    margin-left: 3rem;
+}
+img { 
+    margin-bottom: 2.5rem;
+}
+
