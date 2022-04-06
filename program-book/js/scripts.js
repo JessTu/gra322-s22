@@ -15,7 +15,7 @@ const slider = tns({
     nav: false,
     items: 1,
     slideBy: 'page',
-    autoplay: true,
+    autoplay: false,
     responsive: {
         375: {
           edgePadding: 50,
@@ -37,7 +37,7 @@ const slider2 = tns({
     nav: false,
     items: 1,
     slideBy: 'page',
-    autoplay: true,
+    autoplay: false,
     responsive: {
         375: {
           edgePadding: 50,
@@ -59,7 +59,7 @@ const slider3 = tns({
     nav: false,
     items: 1,
     slideBy: 'page',
-    autoplay: true,
+    autoplay: false,
     responsive: {
         375: {
           edgePadding: 50,
