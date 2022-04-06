@@ -13,6 +13,7 @@ $(document).ready(function(){
 const slider = tns({
     container: '.my-slider',
     nav: false,
+    center: true,
     items: 1,
     slideBy: 'page',
     autoplay: false,
@@ -23,9 +24,13 @@ const slider = tns({
           items: 1
         },
         768: {
-          gutter: 30
+          edgePadding: 50,
+          gutter: 50,
+          items: 1
         },
         1400: {
+          edgePadding: 170,
+          gutter: 50,
           items: 1
         }
       }
@@ -35,6 +40,7 @@ const slider = tns({
 const slider2 = tns({
     container: '.my-slider2',
     nav: false,
+    center: true,
     items: 1,
     slideBy: 'page',
     autoplay: false,
@@ -45,9 +51,13 @@ const slider2 = tns({
           items: 1
         },
         768: {
-          gutter: 30
+          edgePadding: 50,
+          gutter: 50,
+          items: 1
         },
         1400: {
+          edgePadding: 170,
+          gutter: 50,
           items: 1
         }
       }
@@ -57,6 +67,7 @@ const slider2 = tns({
 const slider3 = tns({
     container: '.my-slider3',
     nav: false,
+    center: true,
     items: 1,
     slideBy: 'page',
     autoplay: false,
@@ -67,9 +78,13 @@ const slider3 = tns({
           items: 1
         },
         768: {
-          gutter: 30
+          edgePadding: 50,
+          gutter: 50,
+          items: 1
         },
         1400: {
+          edgePadding: 170,
+          gutter: 50,
           items: 1
         }
       }

@@ -34,10 +34,6 @@ h2 {
     margin-bottom: 4rem;
 }
 
-.three-column {
-    max-width: 280px;
-    margin-left: 3rem;
-}
 
 p {
     margin-bottom: 2.5rem;
@@ -73,7 +69,226 @@ footer {
     max-width: 280px;
     margin-left: 3rem;
 }
+
 img { 
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
+.VCD {
+    display: none;
+}
+
+.two-column {
+    max-width: 280px;
+    margin-left: 3rem;
+}
+
+.name {
+    display: none;
+}
+
+.gif {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-button {
+        display: none;
+    }
+    .VCD {
+        display: flex;
+        margin-left: auto;
+        font-size: 24px;
+        margin-right: 2rem;
+    }
+    header {
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    h2 {
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        
+    }
+    .intro {
+        font-size: 18px;
+        font-size: 400;
+        max-width: 350px;
+        margin-left: 5rem;
+        margin-bottom: 4rem;
+    } 
+    
+    p {
+        margin-bottom: 2.5rem;
+    }
+
+    .two-column {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        max-width: 635px;
+        margin-left: 5rem;
+    }
+
+    .name {
+        display: flex;
+    }
+    
+    footer {
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 5rem;
+        margin-top: 5rem;
+        padding-bottom: 1rem;
+        display: flex;
+    }
+
+    .VCDfooter {
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: 5rem;
+    }
+    
+    .tns-controls {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .tns-controls button {
+        padding: .5rem 1rem;
+    }
+
+    .tns-item {
+        padding-left: 2rem;
+    }
+    
+    .animation {
+        margin-left: 3rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .final {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        margin-left: 5.1rem;
+        max-width: 650px;
+        padding-right: 10px;
+    }
+    
+    img { 
+        margin-bottom: 2rem;
+        padding-right: 2rem;
+    }
+
+    .gif {
+        padding-right: 3rem;
+        padding-left: 5rem;
+    }
+     
+}
+
+@media screen and (min-width: 1400px) {
+    .menu-button {
+        display: none;
+    }
+    .VCD {
+        display: flex;
+        margin-left: auto;
+        font-size: 24px;
+        margin-right: 2rem;
+    }
+    header {
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        
+    }
+    .intro {
+        font-size: 20px;
+        font-size: 400;
+        max-width: 545px;
+        margin-left: 12.5rem;
+        margin-bottom: 4rem;
+    } 
+    
+    p {
+        margin-bottom: 2.5rem;
+    }
+
+ 
+    .two-column {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        max-width: 1025px;
+        margin-left: 12.5rem;
+    }
+  
+
+    .name {
+        display: flex;
+    }
+    
+    footer {
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 5rem;
+        margin-top: 5rem;
+        padding-bottom: 1rem;
+        display: flex;
+    }
+
+    .VCDfooter {
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: 5rem;
+    }
+    
+    .tns-controls {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 12.7rem;
+        margin-right: 12.7rem;
+        margin-bottom: 2rem;
+    }
+    
+    .tns-controls button {
+        padding: .5rem 1rem;
+    }
+    
+    .animation {
+        margin-left: 3rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .final {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        margin-left: 12.5rem;
+        max-width: 1250px;
+        padding-right: 11rem;
+    }
+    
+    img { 
+        margin-bottom: 2rem;
+        padding-right: 2rem;
+    }
+
+    .gif {
+        padding-right: 3rem;
+        padding-left: 5rem;
+        max-width: 1250px;
+    }
+     
+}
