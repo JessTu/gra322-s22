@@ -29,7 +29,7 @@ const slider = tns({
           items: 1
         },
         1400: {
-          edgePadding: 170,
+          edgePadding: 250,
           gutter: 50,
           items: 1
         }
@@ -56,7 +56,7 @@ const slider2 = tns({
           items: 1
         },
         1400: {
-          edgePadding: 170,
+          edgePadding: 250,
           gutter: 50,
           items: 1
         }
@@ -83,7 +83,7 @@ const slider3 = tns({
           items: 1
         },
         1400: {
-          edgePadding: 170,
+          edgePadding: 250,
           gutter: 50,
           items: 1
         }

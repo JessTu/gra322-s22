@@ -74,6 +74,10 @@ img {
     margin-bottom: 1.5rem;
 }
 
+.about {
+    display: none;
+}
+
 .VCD {
     display: none;
 }
@@ -95,6 +99,12 @@ img {
 @media screen and (min-width: 768px) {
     .menu-button {
         display: none;
+    }
+    .about {
+        display: flex;
+        margin-left: auto;
+        font-size: 24px;
+        margin-right: 2rem;
     }
     .VCD {
         display: flex;
@@ -188,7 +198,6 @@ img {
 
     .gif {
         padding-right: 3rem;
-        padding-left: 5rem;
     }
      
 }
@@ -196,6 +205,12 @@ img {
 @media screen and (min-width: 1400px) {
     .menu-button {
         display: none;
+    }
+    .about {
+        display: flex;
+        margin-left: auto;
+        font-size: 24px;
+        margin-right: 2rem;
     }
     .VCD {
         display: flex;
@@ -258,8 +273,8 @@ img {
     .tns-controls {
         display: flex;
         justify-content: space-between;
-        margin-left: 12.7rem;
-        margin-right: 12.7rem;
+        margin-left: 17.7rem;
+        margin-right: 17.7rem;
         margin-bottom: 2rem;
     }
     
@@ -275,8 +290,8 @@ img {
     .final {
         grid-template-columns: 1fr 1fr;
         display: grid;
-        margin-left: 12.5rem;
-        max-width: 1250px;
+        margin-left: 17.8rem;
+        max-width: 1040px;
         padding-right: 11rem;
     }
     
@@ -287,7 +302,6 @@ img {
 
     .gif {
         padding-right: 3rem;
-        padding-left: 5rem;
         max-width: 1250px;
     }
      
