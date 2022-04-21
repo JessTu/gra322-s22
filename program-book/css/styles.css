@@ -51,7 +51,12 @@ h2 {
 
 
 p {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.finaltext {
+    margin-left: 3rem;
+    margin-top: 1rem;
 }
 
 footer {
@@ -149,7 +154,12 @@ img {
     } 
     
     p {
-        margin-bottom: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .finaltext {
+        margin-left: 5rem;
+        margin-top: 1rem;
     }
 
     .two-column {
@@ -257,7 +267,12 @@ img {
     } 
     
     p {
-        margin-bottom: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .finaltext {
+        margin-left: 17.7rem;
+        margin-top: 1rem;
     }
 
  
@@ -301,8 +316,8 @@ img {
     }
     
     .animation {
-        margin-left: 17.5rem;
-        margin-right: 17.5rem;
+        margin-left: 17.7rem;
+        margin-right: 17.7rem;
         margin-bottom: 2.5rem;
     }
     
