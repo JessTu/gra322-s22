@@ -51,7 +51,7 @@ h2 {
 }
 
 p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .finaltext {
@@ -154,7 +154,7 @@ img {
     } 
     
     p {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .finaltext {
@@ -219,7 +219,7 @@ img {
     }
     
     img { 
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         padding-right: 2rem;
     }
 
@@ -267,7 +267,7 @@ img {
     } 
     
     p {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .finaltext {
@@ -330,7 +330,7 @@ img {
     }
     
     img { 
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         padding-right: 2rem;
     }
 
@@ -340,7 +340,3 @@ img {
     }
      
 }
-
-
-
-
