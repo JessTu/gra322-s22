@@ -3,6 +3,7 @@ body {
 }
 
 
+
 header {
     font-size: 20px;
     font-weight: 500;
@@ -28,6 +29,10 @@ li {
 
 a {
     color: #9a9a9a;
+}
+
+a:hover {
+    color: black;
 }
 
 nav {
